@@ -195,6 +195,7 @@ groot = [
 sarm = ["lerobot[transformers-dep]", "pydantic>=2.0.0,<3.0.0", "faker>=33.0.0,<35.0.0", "lerobot[matplotlib-dep]", "lerobot[qwen-vl-utils-dep]"]
 xvla = ["lerobot[transformers-dep]"]
 eo1 = ["lerobot[transformers-dep]", "lerobot[qwen-vl-utils-dep]"]
+vla_jepa = ["lerobot[transformers-dep]", "lerobot[diffusers-dep]", "lerobot[qwen-vl-utils-dep]"]
 hilserl = ["lerobot[transformers-dep]", "gym-hil>=0.1.13,<0.2.0", "lerobot[grpcio-dep]", "lerobot[placo-dep]"]
 
 # Features
@@ -259,6 +260,7 @@ all = [
     # "lerobot[groot]", TODO(Steven): Gr00t requires specific installation instructions for flash-attn
     "lerobot[xvla]",
     "lerobot[hilserl]",
+    "lerobot[vla_jepa]",
     "lerobot[async]",
     "lerobot[dev]",
     "lerobot[test]",
